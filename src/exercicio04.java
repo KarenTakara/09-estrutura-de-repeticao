@@ -10,6 +10,7 @@ public class exercicio04 {
 
             System.out.println("Informe um número: ");
             valor = sc.nextInt();
+            contador = 0;
 
             while (contador <= 10) {
                 resultado = valor * contador;
