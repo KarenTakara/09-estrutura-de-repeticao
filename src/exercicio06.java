@@ -11,7 +11,8 @@ public class exercicio06 {
 
         Scanner sc = new Scanner(System.in);
         int numero, contador;
-        long resultado=1;     //variavel que for guardar soma comeca com zero e variavel que vai multiplicar comeca com 1
+        double resultado=1;     //variavel que for guardar soma comeca com zero e variavel que vai multiplicar comeca com 1
+                                // double para numeros maiores que um trilhao, ja que se voce colocar 21 ele vai dar errado
 
         System.out.println("Digite um número");
         numero = sc.nextInt();
